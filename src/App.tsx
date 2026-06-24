@@ -456,7 +456,7 @@ export default function App() {
             <div className="hidden md:flex items-center gap-2 border border-[#E5E7EB] bg-[#F7F7F8] px-3.5 py-1.5 rounded-xl text-xs font-semibold whitespace-nowrap">
               <span className={`w-1.5 h-1.5 rounded-full ${isClockedIn ? 'bg-emerald-500 animate-pulse' : 'bg-zinc-400'}`} />
               <span className="text-[#6B7280]">Status:</span>
-              <span className="text-[#111111]">{isClockedIn ? 'Clocked In' : 'Off Duty'}</span>
+              <span className="text-[#111111]">{isClockedIn ? 'Active' : 'Offline'}</span>
             </div>
 
             {/* Notifications Dropdown */}

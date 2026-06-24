@@ -1,0 +1,6 @@
+{
+  "name": "HRMS Employee Dashboard",
+  "description": "A high-fidelity minimalist HRMS employee workspace featuring unified interactive clock-in, metric analytics, and comprehensive request management.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
